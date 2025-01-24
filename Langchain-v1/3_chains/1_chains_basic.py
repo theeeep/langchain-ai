@@ -15,6 +15,7 @@ prompt_template = ChatPromptTemplate.from_messages(
 )
 
 # Create a chain with the prompt template and output parser
+# Also known as a Langchain Expression Language (LCEL)
 chain = prompt_template | llm | StrOutputParser()
 
 # Run the chain with the input variables
