@@ -1,3 +1,12 @@
+
+## Types of Chains
+1. LLMChain :
+- Combines a prompt with a language model
+- Allows you to generate responses based on user input
+![Chains Diagram](draw.excalidraw.png)
+
+
+## Langchain Utility Tools
 1. RunnableLambda :
 - A utility that lets you wrap Python functions into LangChain's runnable interface
 - Useful for adding custom processing steps in your chain
@@ -26,3 +35,5 @@ These components are particularly useful when you need to:
 - Transform data between different chain components
 - Create complex workflows with multiple steps
 - Handle intermediate data processing
+
+
