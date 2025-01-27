@@ -80,7 +80,7 @@ classification_chain = classification_template | llm | StrOutputParser()
 final_chain = classification_chain | feedback_chain
 
 
-review = "I'm not sure about the product yet. Can you tell me more about its features and benefits?"
+review = "Its a great product!"
 
 result = final_chain.invoke({"feedback": review})
 
