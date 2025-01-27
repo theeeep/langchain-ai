@@ -63,3 +63,9 @@ tl;dr
 - **Chunk 2:** "you doing, today?"
 
 *Better:* The last 100 characters of Chunk 1 ("you doing, today?") are the same as the first 100 characters of Chunk 2 ("you doing, today?"). This helps preserve context.
+
+### RAGs with META-DATA
+ *why do we need it?:* Let's say we've put a 100 different private docs or books in our vector store, and we ask a question.
+
+ - In addition to getting the chunks, it'll be better if we also know which document or book the chunk came from. 
+ - ex - "The answer is from the book 'The Great Gatsby'" or "The answer is from the document '1234567890'" or "the answer is from the page 123 of the book 'The Great Gatsby'"
