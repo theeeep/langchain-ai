@@ -6,7 +6,7 @@ from langchain_openai import OpenAIEmbeddings
 
 # Define the folder path and the persist_directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(current_dir, "documents", "lord_of_the_rings.txt")
+file_path = os.path.join(current_dir, "documents", "Dracula.txt")
 persistent_directory = os.path.join(current_dir, "db", "chroma_db")
 
 # Check if the Chroma vector store already exists
