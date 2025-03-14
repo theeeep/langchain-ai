@@ -1,0 +1,2 @@
+Output Parsers:
+In Langchain, output parsers are used to convert the output of a language model into a specific format (structured output) like JSON, XML, CSV, pydantic model and more. They ensure consistency, validation and ease of use in applications.
